@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -27,9 +28,15 @@ class Ui_MainWindow
 public:
     QWidget *centralWidget;
     QPushButton *pushButton;
-    QLineEdit *lineEdit;
     QTextBrowser *textBrowser;
     QPushButton *pushButton_2;
+    QLineEdit *Port;
+    QLineEdit *IPAdress;
+    QLabel *label;
+    QLabel *label_2;
+    QLineEdit *lineEdit;
+    QLineEdit *nicknamechanger;
+    QPushButton *nicknamechange;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -38,25 +45,45 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(440, 479);
+        MainWindow->resize(465, 506);
+        MainWindow->setMinimumSize(QSize(465, 506));
+        MainWindow->setMaximumSize(QSize(465, 506));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(120, 10, 241, 23));
-        lineEdit = new QLineEdit(centralWidget);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(20, 340, 241, 81));
+        pushButton->setGeometry(QRect(200, 30, 81, 23));
         textBrowser = new QTextBrowser(centralWidget);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
-        textBrowser->setGeometry(QRect(20, 50, 411, 221));
+        textBrowser->setGeometry(QRect(20, 140, 421, 221));
         pushButton_2 = new QPushButton(centralWidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(310, 360, 91, 31));
+        pushButton_2->setGeometry(QRect(180, 420, 91, 31));
+        Port = new QLineEdit(centralWidget);
+        Port->setObjectName(QString::fromUtf8("Port"));
+        Port->setGeometry(QRect(20, 50, 113, 20));
+        IPAdress = new QLineEdit(centralWidget);
+        IPAdress->setObjectName(QString::fromUtf8("IPAdress"));
+        IPAdress->setGeometry(QRect(20, 10, 113, 20));
+        label = new QLabel(centralWidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(150, 10, 47, 13));
+        label_2 = new QLabel(centralWidget);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(150, 50, 47, 13));
+        lineEdit = new QLineEdit(centralWidget);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setGeometry(QRect(20, 380, 421, 31));
+        nicknamechanger = new QLineEdit(centralWidget);
+        nicknamechanger->setObjectName(QString::fromUtf8("nicknamechanger"));
+        nicknamechanger->setGeometry(QRect(320, 10, 113, 20));
+        nicknamechange = new QPushButton(centralWidget);
+        nicknamechange->setObjectName(QString::fromUtf8("nicknamechange"));
+        nicknamechange->setGeometry(QRect(330, 40, 101, 23));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 440, 21));
+        menuBar->setGeometry(QRect(0, 0, 465, 21));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -75,6 +102,9 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton->setText(QApplication::translate("MainWindow", "connect", nullptr));
         pushButton_2->setText(QApplication::translate("MainWindow", "Send", nullptr));
+        label->setText(QApplication::translate("MainWindow", "IP Adress", nullptr));
+        label_2->setText(QApplication::translate("MainWindow", "Port", nullptr));
+        nicknamechange->setText(QApplication::translate("MainWindow", "change nickname", nullptr));
     } // retranslateUi
 
 };

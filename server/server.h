@@ -14,7 +14,7 @@ public:
 private:
     QVector <QTcpSocket*> Sockets;
     QByteArray Data;
-    void SendToClient(QString);
+    void SendToClient(QString,QString);
     quint16 nextBlockSize;
 public slots:
     void incomingConnection(qintptr socketDescriptor);

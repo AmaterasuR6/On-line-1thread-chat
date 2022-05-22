@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/chat_section.o
+release/chat_input.o
+release/message_box.o
+release/name_asker.o
+release/moc_mainwindow.o
+release/moc_chat_section.o
+release/moc_chat_input.o
+release/moc_name_asker.o

@@ -221,6 +221,44 @@ debug/moc_mainwindow.cpp: C:/qt/5.12.0/mingw73_64/include/QtWidgets/QMainWindow 
 		C:/qt/5.12.0/mingw73_64/include/QtNetwork/qabstractsocket.h \
 		C:/qt/5.12.0/mingw73_64/include/QtCore/QTime \
 		C:/qt/5.12.0/mingw73_64/include/QtCore/qdatetime.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QWidget \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLayout \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QBoxLayout \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLabel \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlabel.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qframe.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QPushButton \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLineEdit \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextcursor.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextformat.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qpen.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextoption.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QTabWidget \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QScrollArea \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qscrollarea.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QFrame \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QString \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QEvent \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/QFont \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QTextEdit \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qtextedit.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextdocument.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QSpacerItem \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QSize \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/QKeyEvent \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QScrollBar \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qscrollbar.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractslider.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QDialog \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qdialog.h \
 		mainwindow.h \
 		debug/moc_predefs.h \
 		C:/qt/5.12.0/mingw73_64/bin/moc.exe
@@ -363,6 +401,44 @@ debug/main.o: main.cpp mainwindow.h \
 		C:/qt/5.12.0/mingw73_64/include/QtNetwork/qabstractsocket.h \
 		C:/qt/5.12.0/mingw73_64/include/QtCore/QTime \
 		C:/qt/5.12.0/mingw73_64/include/QtCore/qdatetime.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QWidget \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLayout \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QBoxLayout \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLabel \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlabel.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qframe.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QPushButton \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLineEdit \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextcursor.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextformat.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qpen.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextoption.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QTabWidget \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QScrollArea \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qscrollarea.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QFrame \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QString \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QEvent \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/QFont \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QTextEdit \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qtextedit.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextdocument.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QSpacerItem \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QSize \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/QKeyEvent \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QScrollBar \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qscrollbar.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractslider.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QDialog \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qdialog.h \
 		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QApplication \
 		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qapplication.h \
 		C:/qt/5.12.0/mingw73_64/include/QtCore/qcoreapplication.h \
@@ -486,7 +562,64 @@ debug/mainwindow.o: mainwindow.cpp mainwindow.h \
 		C:/qt/5.12.0/mingw73_64/include/QtNetwork/qabstractsocket.h \
 		C:/qt/5.12.0/mingw73_64/include/QtCore/QTime \
 		C:/qt/5.12.0/mingw73_64/include/QtCore/qdatetime.h \
-		ui_mainwindow.h
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QWidget \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLayout \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QBoxLayout \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLabel \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlabel.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qframe.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QPushButton \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QLineEdit \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextcursor.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextformat.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qpen.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextoption.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QTabWidget \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QScrollArea \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qscrollarea.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QFrame \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QString \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QEvent \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/QFont \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QTextEdit \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qtextedit.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qtextdocument.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QSpacerItem \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QSize \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/QKeyEvent \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QScrollBar \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qscrollbar.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qabstractslider.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QDialog \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qdialog.h \
+		ui_mainwindow.h \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/QVariant \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QApplication \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qapplication.h \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/qcoreapplication.h \
+		C:/qt/5.12.0/mingw73_64/include/QtCore/qeventloop.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qguiapplication.h \
+		C:/qt/5.12.0/mingw73_64/include/QtGui/qinputmethod.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QMenuBar \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qmenubar.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qmenu.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qaction.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qactiongroup.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QStatusBar \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qstatusbar.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QTextBrowser \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qtextbrowser.h \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/QToolBar \
+		C:/qt/5.12.0/mingw73_64/include/QtWidgets/qtoolbar.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o mainwindow.cpp
 
 debug/moc_mainwindow.o: debug/moc_mainwindow.cpp 

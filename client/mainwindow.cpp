@@ -10,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(socket,&QTcpSocket::readyRead,this,&MainWindow::slotReadyRead);
     connect(socket,&QTcpSocket::disconnected,socket,&QTcpSocket::deleteLater);
     nextBlockSize=0;
+
 }
 
 MainWindow::~MainWindow()
@@ -19,7 +20,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    socket->connectToHost("127.0.0.1",2323);
+    socket->connectToHost(ui->IPAdress->text(),ui->Port->text().toInt());
 }
 
 void MainWindow::SendToServer(QString str)
@@ -27,7 +28,7 @@ void MainWindow::SendToServer(QString str)
     Data.clear();
     QDataStream out(&Data,QIODevice::WriteOnly);
     out.setVersion(QDataStream::Qt_5_12);
-    out<<quint16(0)<<QTime::currentTime()<<str;
+    out<<quint16(0)<<QTime::currentTime()<<name<<str;
     out.device()->seek(0);
     out<<quint16(Data.size()-sizeof(quint16));
     socket->write(Data);
@@ -58,10 +59,11 @@ void MainWindow::slotReadyRead()
                 break;
             }
             QString str;
+            QString nameSender;
             QTime time;
-            in>>time>>str;
+            in>>time>>nameSender>>str;
             nextBlockSize=0;
-            ui->textBrowser->append(time.toString()+" "+str);
+            ui->textBrowser->append(nameSender+"\n"+time.toString()+" "+str);
         }
     }
     else
@@ -78,4 +80,14 @@ void MainWindow::on_pushButton_2_clicked()
 void MainWindow::on_lineEdit_returnPressed()
 {
       SendToServer(ui->lineEdit->text());
+}
+void MainWindow::changeName(QString s)
+{
+    name.clear();
+    name=s;
+}
+
+void MainWindow::on_nicknamechange_clicked()
+{
+    changeName(ui->nicknamechanger->text());
 }

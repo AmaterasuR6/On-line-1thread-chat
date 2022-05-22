@@ -220,6 +220,7 @@ Makefile: client.pro C:/qt/5.12.0/mingw73_64/mkspecs/win32-g++/qmake.conf C:/qt/
 		C:/qt/5.12.0/mingw73_64/mkspecs/features/qt_config.prf \
 		C:/qt/5.12.0/mingw73_64/mkspecs/win32-g++/qmake.conf \
 		C:/qt/5.12.0/mingw73_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		C:/qt/5.12.0/mingw73_64/mkspecs/features/exclusive_builds.prf \
 		C:/qt/5.12.0/mingw73_64/mkspecs/features/toolchain.prf \
 		C:/qt/5.12.0/mingw73_64/mkspecs/features/default_pre.prf \
@@ -408,6 +409,7 @@ C:/qt/5.12.0/mingw73_64/mkspecs/features/qt_functions.prf:
 C:/qt/5.12.0/mingw73_64/mkspecs/features/qt_config.prf:
 C:/qt/5.12.0/mingw73_64/mkspecs/win32-g++/qmake.conf:
 C:/qt/5.12.0/mingw73_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 C:/qt/5.12.0/mingw73_64/mkspecs/features/exclusive_builds.prf:
 C:/qt/5.12.0/mingw73_64/mkspecs/features/toolchain.prf:
 C:/qt/5.12.0/mingw73_64/mkspecs/features/default_pre.prf:

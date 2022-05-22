@@ -47,10 +47,11 @@ void server::slotReadyRead()
                 break;
             }
             QString str;
+            QString name;
             QTime time;
-            in>>time>>str;
+            in>>time>>name>>str;
             nextBlockSize=0;
-            SendToClient(str);
+            SendToClient(str,name);
             break;
         }
     }
@@ -59,12 +60,12 @@ void server::slotReadyRead()
         qDebug()<<"QDataStream error";
     }
 }
-void server::SendToClient(QString str)
+void server::SendToClient(QString str,QString name)
 {
     Data.clear();
     QDataStream out(&Data,QIODevice::WriteOnly);
     out.setVersion(QDataStream::Qt_5_12);
-    out<<quint16(0)<<QTime::currentTime()<<str;
+    out<<quint16(0)<<QTime::currentTime()<<name<<str;
     out.device()->seek(0);
     out<<quint16(Data.size()-sizeof(quint16));
     //socket->write(Data);
